@@ -47,7 +47,7 @@ https://webap2.asia.edu.tw/stdgrad/prg_GR/IN0009_Rpt.aspx?sel_std_no_q={計算�
 
 ### 獨立使用
 
-1. 克隆倉庫：
+1. Clone repo：
 ```bash
 git clone https://github.com/zisunny104/gradcheck.git
 cd gradcheck
@@ -59,7 +59,7 @@ cd gradcheck
 
 ### 與 KoiLiSu 開利手整合
 
-1. 將此倉庫放置在 `koilisu/apps/gradcheck/` 目錄
+1. 將此 repo 放置在 `koilisu/apps/gradcheck/` 目錄
 2. 透過 `https://toka.dev/koilisu/gradcheck` 造訪
 
 ## 版本歷史
