@@ -60,7 +60,7 @@ cd gradcheck
 ### 與 KoiLiSu Framework 整合
 
 1. 將此倉庫放置在 `koilisu/apps/gradcheck/` 目錄
-2. 通過 `/koilisu/gradcheck` 訪問
+2. 透過 `https://toka.dev/koilisu/gradcheck` 造訪
 
 ## 版本歷史
 
