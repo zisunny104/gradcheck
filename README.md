@@ -84,7 +84,7 @@ cd gradcheck
 
 ## 授權
 
-MIT License
+MIT License，詳見 [LICENSE](LICENSE)。
 
 ## 作者
 
