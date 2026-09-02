@@ -49,8 +49,8 @@ https://webap2.asia.edu.tw/stdgrad/prg_GR/IN0009_Rpt.aspx?sel_std_no_q={計算�
 
 1. 克隆倉庫：
 ```bash
-git clone https://github.com/zisunny104/koilisu-gradcheck.git
-cd koilisu-gradcheck
+git clone https://github.com/zisunny104/gradcheck.git
+cd gradcheck
 ```
 
 2. 配置網頁伺服器
