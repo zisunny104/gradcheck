@@ -1,4 +1,4 @@
-## MIT License
+MIT License
 
 Copyright (c) 2026 prjToka (Tokas / Xiang-zi Xie)
 
@@ -20,9 +20,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-*以上英文為具法律效力之正式版本；以下中文僅為便於理解之翻譯，若有歧義以英文為準。*
+================================================================================
+MIT 授權條款（中文參考翻譯）
+以上英文為具法律效力之正式版本；以下中文僅為便於理解之翻譯，若有歧義以英文為準。
+================================================================================
 
 版權所有 (c) 2026 prjToka（Tokas／謝祥紫）
 
@@ -38,11 +39,13 @@ SOFTWARE.
 軟體或本軟體之使用或其他處理所生、所致或與之相關之任何索賠、損害或其他
 責任負責，無論是基於契約、侵權或其他法律行為。
 
-## 第三方元件
+================================================================================
+第三方元件 · Third-Party Components
+================================================================================
 
 本專案的參數計算、驗證等核心邏輯皆為原生實作，不依賴任何第三方 JavaScript 函式庫。
 
-#### 由瀏覽器自 CDN 載入 · Loaded at runtime from a CDN (not redistributed here)
+## 由瀏覽器自 CDN 載入 · Loaded at runtime from a CDN (not redistributed here)
 
 | 元件 Component | 用途 Purpose      | 授權 License |
 |-----------------|-------------------|--------------|
