@@ -16,6 +16,8 @@ KoiLiSu GradCheck 是一個專為亞洲大學學生設計的畢業資格審查�
 
 ## 使用方法
 
+直接使用：[網頁工具](https://toka.dev/koilisu/gradcheck)。
+
 1. 輸入學號（支援多個，用逗號或空格分隔）
 2. 系統自動驗證學號格式（9位數字）
 3. 點擊生成的下載按鈕
@@ -43,24 +45,6 @@ const std_cos_year_q = Math.floor(studentId / 1000000);
 https://webap2.asia.edu.tw/stdgrad/prg_GR/IN0009_Rpt.aspx?sel_std_no_q={計算值}&std_para={計算值}&std_cos_year_q={年份}&type_no_q=0&type_name_q=
 ```
 
-## 安裝
-
-### 獨立使用
-
-1. Clone repo：
-```bash
-git clone https://github.com/zisunny104/gradcheck.git
-cd gradcheck
-```
-
-2. 設定網頁伺服器
-
-3. 直接訪問 `index.php`
-
-### 與 KoiLiSu 開利手整合
-
-1. 將此 repo 放置在 `koilisu/apps/gradcheck/` 目錄
-2. 透過 `https://toka.dev/koilisu/gradcheck` 造訪
 
 ## 版本歷史
 
