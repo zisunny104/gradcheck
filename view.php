@@ -9,7 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/5.7.0/tocas.min.js"></script>
 
     <style type="text/css">
-    /* 現代 sticky footer 布局 */
+    /* 現代 sticky footer 版面 */
     * {
         box-sizing: border-box;
     }
