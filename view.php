@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <title>畢業資格審查表下載工具 - KoiLiSu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/5.7.0/tocas.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/5.7.0/tocas.min.js"></script>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/5.7.0/tocas.min.css"
+        integrity="sha512-F4xj0Qcc6/jwQjpN70mZP1F5edUVg/WbWEYqUu1FEnvZFAg5IxvBAlNgji+6547uhPtaO14HmBdMhsZ19fHVSw=="
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/5.7.0/tocas.min.js"
+        integrity="sha512-nzuAF7sDvUg8SagRIjY6B5mXfwuMW/3fOU/LITsIukL7PVzfN1srR+2GSfqYr53gRkq8B2y0Sb7Z66ZRMmtxdg=="
+        crossorigin="anonymous"></script>
 
     <style type="text/css">
     /* 現代 sticky footer 版面 */
@@ -160,7 +165,7 @@
                     </div>
                     <div class="ts-text is-description">
                         Built with ❤️ using Tocas UI |
-                        <a href="https://github.com/zisunny104/gradcheck" target="_blank"
+                        <a href="https://github.com/zisunny104/gradcheck" target="_blank" rel="noopener noreferrer"
                             style="display: inline-block; padding: 2px 8px; background: #24292f; color: white; text-decoration: none; border-radius: 6px; font-size: 0.85em; font-weight: 500; margin-left: 4px;">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
                                 style="vertical-align: text-bottom; margin-right: 4px;">
@@ -199,7 +204,8 @@
             `is-rounded is-${theme}`;
 
         // Save theme preference to cookie
-        document.cookie = `preferred-theme=${theme}; path=/; max-age=31536000`; // 1 year
+        const secure = location.protocol === 'https:' ? '; Secure' : '';
+        document.cookie = `preferred-theme=${theme}; path=/; max-age=31536000; SameSite=Lax${secure}`; // 1 year
     }
 
     function getPreferredTheme() {
